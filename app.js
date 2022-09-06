@@ -4,7 +4,6 @@ const router = require("./routes/vapes-routes");
 const cors = require ('cors');
 const app = express();
 
-// Middlewares
 app.use(express.json());
 app.use(cors());
 app.use("/vapes", router); //localhost:4000/vapes 
